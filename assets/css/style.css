@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200;400&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*GERAL*/
+body{
+    background-color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.disp-flex{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: auto;
+    min-width: 320px;
+}
+
+.disp-flex-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+/*NAVBAR*/
+nav{
+    background-color: #0043d5;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*APRESENTAÇÃO*/
+header{
+    height: 500px;
+    align-items: center;
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.titulo{
+    min-height: 200px;
+}
+
+.inicio{
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*EXPLICAÇÃO E TIRANDO DÚVIDAS*/
+#perguntas{
+    font-size: 20px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+#explicacaoSite{
+    margin-left: 10px;
+}
+
+#duvidas{
+    margin-top: 40px;
+}
+
+.es{
+    margin-top: 10px;
+}
+
+.dv{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/*FORMULÁRIO*/
+.imgForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#divulgacaoForm{
+    text-align: center;
+    background-color: #0043d5;
+    width: 101%;
+    padding: 20px;
+    margin-top: 60px;
+    color: white;
+}
+
+form{
+    border: 1px solid black;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: rgba(155, 193, 232, 0.419);
+    align-items: center;
+}
+
+#formulario{
+    display: flex;
+    margin: 20px;
+    display: block;
+    width: 30%;
+}
+
+input, select{
+    width: 200px;
+    height: 25px;
+}
+
+.inserirDados{    
+    margin-left: 10px;
+}
+
+.nome-completo{
+    margin-bottom: 10px
+}
+
+.infosAdc{
+    margin-bottom: 20px
+}
+
+#oqueE{
+    cursor: pointer;
+}
+
+#botao{
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #0043D5;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+#botao:hover{
+    background-color: blue;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #0043D5;
+    min-height: 100px;
+    bottom: 0;
+    width: 115%;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+}
+
+#meusDados{
+    margin: auto;
+}
+
+.contatos{
+    padding: 10px;
+}
+
+#github, #linkedin{
+    padding: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(195, 216, 255);
+}

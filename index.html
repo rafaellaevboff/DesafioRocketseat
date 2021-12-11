@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
+
+    <title>Acesso à Educação</title>
+</head>
+<body>
+    <nav class="navbar disp-flex">
+        <a href="#home">FEH</a>
+        <a href="#explicacaoSite">Objetivo</a>
+        <a href="#duvidas">Duvidas</a>
+        <a href="#formulario">Entrar em contato</a>
+    </nav>
+
+    <div id="home">
+        <header class="disp-flex inicio">
+            <div class="titulo">
+                <h1>FEH - Find education here</h1>
+            </div>
+
+            <div>
+                <img src="./img/DrawKit/5 SCENE.svg" alt="Duas pessoas olhando a tela do computador, que mostra alguém mostrando um papel">
+            </div>
+        </header>
+
+        <section id="perguntas" class="headline disp-flex-col">
+            <ul id="explicacaoSite">
+                <li class="es">O que é? É um site que reúne atalhos para as plataformas de ensino grátis.</li>
+                <li class="es">Atalhos para plataformas, sites, cursos grátis e criadores de conteúdo da área serão adicionados, assim assuntos sobre a área serão encontrados acessando o site.</li>
+                <li class="es">Dessa forma as pessoas poderão descobrir formas de aprender de forma gratuíta.</li>
+            </ul>
+
+            <div id="duvidas">
+                <h2>DÚVIDAS:</h2>
+                <details class="dv">
+                    <summary>Como o aluno terá acesso às plataformas?</summary>
+                    <p>No site terão atalhos para o aluno acessar os atalhos com uma pequena explicação sobre o que irá encontrar ao ser redirecionado.</p>
+                </details>
+
+                <details class="dv">
+                    <summary>Como isso ajudaria ajudar no acesso à educação?</summary>
+                    <p>Ao entrar na área da tecnologia muitas pessoas ficam um pouco perdidas, não sabendo onde achar conteúdo, ou até mesmo sabem alguns, mas não de outros. Com um local com informações sobre as plataformas de ensino grátis muitas pessoas poderiam escolher diferentes fontes para estudar.</p>
+                </details>
+        
+                <details class="dv">
+                    <summary>A ideia vale somente para sites?</summary>
+                    <p>Não. Colegas que produzem conteúido no Youtube seriam divulgados também.</p>
+                </details>
+            </div>
+        </section>
+
+        <h2 id="divulgacaoForm">Você pode entrar em contato através do formulário a seguir:
+        </h2>
+
+        <div class="imgForm">
+            <section>
+                <img src="./img/DrawKit/4 SCENE.svg" alt="Uma mulher de cabelos loiros e pele negra sentada em frente ao computador usando uma blusa azul, saia vermelha e headphones participando de uma videochamada com outras três pessoas" class="">
+            </section>
+            
+            <section id="formulario" class="headline">
+                <h1>Informe seus dados e sua mensagem:</h1>
+                <form action="" class="disp-flex-col">
+
+                    <div class="disp-flex nome-completo">
+                        <div class="disp-flex-col inserirDados">
+                            <label for="">PRIMEIRO NOME</label>
+                            <input type="text" name="primeiroNome" aria-required="true">
+                        </div>
+
+                        <div class="disp-flex-col inserirDados">
+                            <label for="">SOBRENOME</label>
+                            <input type="text" name="sobrenome" aria-required="true">
+                        </div>
+                    </div>
+
+                    <div class="disp-flex infosAdc">
+                        <div class="disp-flex-col inserirDados">
+                            <label for="">E-MAIL</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="disp-flex-col inserirDados">
+                            <label for="">Escolha:</label>
+                            <select name="oqueE" id="oqueE" required>
+                                <option value=""></option>
+                                <option value="">Dúvidas</option>
+                                <option value="">Quero divulgar</option>
+                                <option value="">Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem." cols="50" rows="7" class="disp-flex-col" required></textarea>
+                
+                    <input type="submit" id="botao" value="Enviar">
+                    
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="meusDados">
+            <h3>Site desenvolvido por Rafaella Evaldt Boff</h3>
+            <div class="contatos">
+                <a id="github" href="https://github.com/rafaellaevboff" target="_blank">GITHUB</a>
+                <a id="linkedin" href="https://www.linkedin.com/in/rafaellaevaldtboff" target="_blank">LINKEDIN</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@media screen and (max-width: 755px){
+    body{
+        margin: auto;
+    }
+
+    .inicio{
+        padding-left: 10%;
+    }
+
+    /*FORMULÁRIO:*/
+    form{
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 30px;
+    }
+    
+    #formulario{
+        margin: 20px;
+        width: 250px;
+    }
+    
+    input, select{
+        width: 200px;
+        height: 25px;
+    }
+    
+    .nome-completo, .infosAdc{
+        flex-direction: column;
+    }
+
+    #mensagem{
+        width: 200px;
+    }
+
+    .imgForm{
+        flex-direction: column-reverse;
+    }
+
+}
